@@ -30,7 +30,7 @@
     width: 113.97px;
     margin: 1px;
     padding: 1px 8px 0px 6px;
-    background-image: url("amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     background-position: center;
 }
@@ -103,6 +103,7 @@ font-weight:bolder;
     width: 200px;
     height: 37.99px;
     margin-right: 0px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 #search_box{
@@ -110,7 +111,7 @@ font-weight:bolder;
     margin-left: 1px;
     display: flex;
     background-color: rgb(0, 0, 0);
-
+    
  
     
 }
@@ -128,9 +129,11 @@ font-weight:bolder;
     height: 37.99px;
     background-color: #FEBD69;
     flex-shrink:0 ;
+    border-radius: 0px 5px 5px 0px;
 }
 #lang_select{
-   background-color: black;
+    background-color: #0f1111;
+
    color: #ffffff;
    border: none;
    font-weight: bolder;
@@ -185,4 +188,118 @@ font-weight:bolder;
     height: 49.99px;
     display: flex;
     align-items: center;
+}
+.subnav{
+   
+    height: 39px;
+    background-color: #232f3e;
+    color: #0f1111;
+    padding:0px 0px 0px 1px;
+}
+.all_button{
+    background-color: #232f3e;
+    color: #ffffff;
+    width: 58.37px;
+    height: 39px;
+    padding: 8px 9px;
+    border: none; 
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#all_button_text{
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.subnav_list_item{
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 
+}
+.Today_deals{
+    width: 102.79px;
+    height: 39px;
+    background-color: #232f3e;
+    color: #ffffff;
+    border: none;
+  
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 6px;
+    padding: 8px 9px;
+}
+.Coustomer_service{
+    width: 128.31px;
+    height: 39px;
+    background-color: #232f3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+.regitry_button{
+    width: 69.77px;
+    height: 39px;
+    margin: 0px 0px 6px;
+    padding: 8px 9px;
+
+    background-color: #232f3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+.gift_card_button{
+
+    width:80.97px;
+    height: 39px;
+    border: none;
+    background-color: #232f3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.sell_button{
+width:41.36px;
+height: 39px;
+border: none;
+background-color: #232f3e;
+color: #ffffff;
+display: flex;
+align-items: center;
+}
+button:hover{
+    cursor:pointer;
+}
+select:hover{
+    cursor: pointer;
+}
+.hero_section{
+    background-image: url(images/hero_image.jpg);
+
+    
+    height: 400px; 
+    background-size:cover;
+   
+}
+.catlog_1{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 
+
+}
+
+#catlog_1_a{
+    background-color: #cccccc;
 }
